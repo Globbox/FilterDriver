@@ -1,0 +1,12 @@
+TARGETNAME=scanner
+TARGETPATH=OBJ
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib
+
+
+SOURCES=scanner.c \
+	scanner.rc
